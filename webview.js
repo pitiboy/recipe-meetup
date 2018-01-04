@@ -5,7 +5,7 @@ module.exports = (Franz) => {
     if (document.getElementsByClassName('convoItem-timestamp').length > 0) {
       // this is only a hack without knowing exaclty the new chat indication...
       // it is just listening if the last message arrived within 1 days
-      if (document.getElementsByClassName('convoItem-timestamp')[0].innerText.match(/.*[hms]$/)) count++;
+      if (document.getElementsByClassName('convoItem-timestamp')[0].innerText.match(/.*[ms]$/)) count++;
     }
 
     // Just incase we don't end up with a number, set it back to zero (parseInt can return NaN)
