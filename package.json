@@ -1,0 +1,12 @@
+{
+  "id": "meetup",
+  "name": "MeetUp.com portal",
+  "version": "1.0.0",
+  "description": "Internal messaging for MeetUp.com portal",
+  "main": "index.js",
+  "author": "Peter Horvath <horvath.peter@fejlesztesek.hu>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://secure.meetup.com/messages/"
+  }
+}
