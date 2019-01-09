@@ -1,6 +1,6 @@
 #!/bin/sh
 mkdir ~/Library/"Application Support"/Franz/recipes/dev/recipe-meetup
-cp -f ./*.png ./*.svg ./*.json ./*.js ~/Library/"Application Support"/Franz/recipes/dev/recipe-meetup
+cp -f ./*.png ./*.svg ./*.json ./*.js ./*.css ~/Library/"Application Support"/Franz/recipes/dev/recipe-meetup
 
 echo
 echo deployed MeetUp recipe for Franz 'dev'
